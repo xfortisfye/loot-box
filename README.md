@@ -1,3 +1,3 @@
 # loot-box
 
-A place to share any information :>
+A place to keep any information or notes :>
