@@ -61,14 +61,18 @@
 ```
 
 2. Launch it using
-  1. Win-Kex Window Mode (Generate a full-screen Kali): `kex --win -s`
-  2. Win-Kex SL Mode (Generate a task-bar Kali): `kex --sl -s`
-  3. Win-Kex ESM Mode (Remote Host Connection + Windowed version): `kex --esm -s`
+  i. Win-Kex Window Mode (Generate a full-screen Kali): `kex --win -s`
+  ii. Win-Kex SL Mode (Generate a task-bar Kali): `kex --sl -s`
+  iii. Win-Kex ESM Mode (Remote Host Connection + Windowed version): `kex --esm -s`
 
 3. Ensure that public network traffic is allowed through the Windows Defender Firewall when prompted (to enable SL mode and sound).
+4. To end process, `kex --kill`
 
 [Official Documentation](https://www.kali.org/docs/wsl/win-kex/)
 [Video Reference](https://www.youtube.com/watch?v=nXThnFxwH9c&ab_channel=DavidBombal)
 
 
-  
+1. Set up environment PATH, if not you will not be unable to run `make`
+   1. Right-click on 'This PC' > Properties > Advance System Settings > Environment Variables
+   2. Under System Variable, Select PATH
+   3. Click on Edit, enter Make location. Usually: `C:\Program Files (x86)\GnuWin32\bin`
