@@ -26,24 +26,29 @@
 
 ## Move WSL2 File System to another drive
 
-1. Export Ubuntu
- ```powershell
- > mkdir D:\backup
- > wsl --export Ubuntu D:\backup\ubuntu.tar
- ```
-2. Unregister the same distribution to remove it from the C: drive:
+1. Use powershell to check the distro name
 ```powershell
-> wsl --unregister Ubuntu
+> wsl -l -v
 ```
-3. Import Ubuntu
+> in this scenario, it is kali-linux
+2. Export Kali
+```powershell
+> mkdir D:\backup
+> wsl --export kali-linux D:\backup\kali.tar
+```
+3. Unregister the same distribution to remove it from the C: drive:
+```powershell
+> wsl --unregister kali-linux
+```
+4. Import Kali
 ```powershell
 > mkdir D:\wsl
-> wsl --import Ubuntu D:\wsl\ D:\backup\ubuntu.tar
+> wsl --import kali-linux D:\wsl\ D:\backup\kali.tar
 ```
-4. By default Ubuntu will use root as the default user, to switch back to previous registered user, go to the Ubuntu App Folder run command to set default user
+5. By default Kali will use root as the default user, to switch back to previous registered user, go to the Kali App Folder run command to set default user
 ```powershell
 > cd %userprofile%\AppData\Local\Microsoft\WindowsApps
-> ubuntu config --default-user <username>
+> kali config --default-user <username>
 ```
 
 [Reference](https://superuser.com/questions/1550622/move-wsl2-file-system-to-another-drive).
