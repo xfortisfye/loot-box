@@ -4,7 +4,7 @@
 - [WSL2 Installation](#wsl2-installation)
 - [Install Linux distribution](#install-linux-distribution) 
 - [Move WSL2 file system to another drive](#move-wsl2-file-system-to-another-drive)
-- [Collaborators](#collaborators)
+- [Install Kali GUI](#install-kali-gui)
 
 ## WSL2 Installation
 
