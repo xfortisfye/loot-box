@@ -1,8 +1,9 @@
 ## REVERSE SHELL ##
 [Reverse Shell Cheatsheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
 
-[Short Reverse Shell](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
+[PenTestMonkey: Reverse Shell](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
 
+[PenTestMonkey: TTY](http://pentestmonkey.net/blog/post-exploitation-without-a-tty)
 
 ## URL ENCODING ##
 [W3Schools URL Encode](https://www.w3schools.com/tags/ref_urlencode.ASP)
