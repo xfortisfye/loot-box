@@ -1,3 +1,7 @@
+## Linux Escalation ##
+[LinEnum](https://github.com/rebootuser/LinEnum)
+[Linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite)
+
 ## Password Cracking ##
 [Hydra Cheatsheet](https://github.com/frizb/Hydra-Cheatsheet)
 
