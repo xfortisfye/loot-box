@@ -4,6 +4,3 @@
 # print numbers in decimal places without rounding up or down
 def truncate(f, n):
     return floor(f * 10 ** n) / 10 ** n
-
-# Regular expression: Greedy V Lazy
-[Greedy v Lazy](https://stackoverflow.com/questions/2301285/what-do-lazy-and-greedy-mean-in-the-context-of-regular-expressions)
