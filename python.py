@@ -1,7 +1,6 @@
 """
 create empty nested list
 """
-
 lst = [[] for _ in range(3)]
 print(lst)
 
@@ -15,6 +14,10 @@ def div_percent(dividend, divisor):
         return 0.00
     elif divisor == 0:
         return 100.00
-      
+
+"""
+print numbers in decimal places without rounding up or down
+"""
+import math
 def truncate(f, n):
-    return floor(f * 10 ** n) / 10 ** n
+    return math.floor(f * 10 ** n) / 10 ** n

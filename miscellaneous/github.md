@@ -17,3 +17,5 @@
 ? Authenticate Git with your GitHub credentials? Yes
 ? How would you like to authenticate GitHub CLI? Paste an authentication token
 ```
+# FAQ
+[Remove Git LFS](https://stackoverflow.com/questions/35011366/move-git-lfs-tracked-files-under-regular-git/54119191#54119191)
