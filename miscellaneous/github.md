@@ -5,9 +5,11 @@
 
 
 ## Install `gh`
-1. https://github.com/cli/cli/releases/tag/v2.0.0
+1. https://github.com/cli/cli/blob/trunk/docs/install_linux.md
 
-2. If issues faced
+2. https://github.com/cli/cli/releases/tag/v2.0.0
+
+3. If issues faced
 - https://askubuntu.com/a/1245049
 
 
