@@ -19,3 +19,6 @@
 ```
 # FAQ
 [Remove Git LFS](https://stackoverflow.com/questions/35011366/move-git-lfs-tracked-files-under-regular-git/54119191#54119191)
+
+# Duplicating Github Repository
+[Duplicate Github Repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository)
