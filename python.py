@@ -1,4 +1,19 @@
 """
+Three tools for understanding strange objects¶
+"""
+'1: type() (what is this thing?)'
+
+type(rolls)
+
+'2: dir() (what can I do with it?)'
+
+print(dir(rolls))
+
+'3. help() (tell me more)'
+
+help(dir(rolls))
+
+"""
 create empty nested list
 """
 lst = [[] for _ in range(3)]
@@ -21,3 +36,4 @@ print numbers in decimal places without rounding up or down
 import math
 def truncate(f, n):
     return math.floor(f * 10 ** n) / 10 ** n
+
