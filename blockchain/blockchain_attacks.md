@@ -1,3 +1,16 @@
+## MY summary’s Review and Clarifications
+
+- **51% Attack:** Aim to control the system by taking over more than >50% of mining power or stake and rewrite transaction history.
+- **Sybil Attack:** Utilise multiple fake identities to gain influence, disrupt network or gather unfair rewards, slow down transaction, mess with routing or block honest nodes from connection; prevention includes stake deposits, id checks, reputation score. Abuse the loophole that assumes all nodes are independent users.
+- **Smart Contract Exploit:** Vulnerabilities include reentrancy, overflows, improper access.
+- **-> Reentrancy attack:** Attacker keep calling the function before the contract update its records, draining funds before it register a sale.
+- **DDoS Attack:** Flood with fake transaction request and prevent legitimate transactions from being processed; prevention includes fees and rate-limiting.
+- **Routing Attack:** Manipulates block/transaction propagation by rerouting or delaying transaction; whitelisting alone isn’t enough.
+- **Flash Loan Attack:** Uses uncollateralized atomic loans; prevent via secure oracles, limits, collateral checks.
+- **Eclipse Attack:** Isolates node, can lead to double spend attack or selfish minining attacks; prevent via peer diversity, checkpointing.
+- **Double Spend Attack:** Exploit latency; prevent via multiple blocks confirmations and secure consensus.
+- **Relay/Replay Attack:** Transactions replayed across chains during a hard fork; prevent with chain IDs or unique signatures.
+
 Hello, I'm about to describe some of the blockchain attacks. Please let me know if my understanding is correct.
 
 51% attack is where an attacker abuse the characteristics of a blockchain where it requires 51% of the nodes in agreement to reach consensus. When a group control more than 51% of the nodes, it allows them to control the network and perform illegal actions such as rewrite transactions and perform reorg of the chains. The prevention for this attack is to ensure that there is a large amount of nodes in the network to reduce the possibility of an attacker controlling more than 51% of the nodes.
